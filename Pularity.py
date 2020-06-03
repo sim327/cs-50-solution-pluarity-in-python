@@ -3,7 +3,7 @@ vote_dic={"alia":0,"bob":0,"charlie":0} #creating a dic with candidate name
 n=int(input("No of voters")) #taking no of voters 
 
 for i in range(0,n): #iterating over no of voters
-    Vote = input("vote for") #get vote for candidates
+    vote = input("vote for") #get vote for candidates
     
     if vote in vote_dic:  #if candidate found then increase one vote 
        vote_dic[vote] =+1 
